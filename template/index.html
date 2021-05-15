@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mars & Space</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      </head>
+<body>
+  <div class="container">
+
+    <div class="jumbotron text-center">
+      <h1>Mission to Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape New Data</a></p>
+    </div>
+     <!-- Craigslist Listings -->
+     <div class="row" id="craiglist-listings">
+      <div class="col-md-12">
+        <h2>Latest News</h2>
+        <h4 class="heading">{{space.news_title}}</h4>
+        <small>{{space.news_paragraph}}</small>
+        <div class="container">
+          <div class="row">
+            <div class ="col-md-7 col-sm-12">
+              <h2>Featured Mars News</h2>
+              <img src="{{ space.img_source }}" alt="Mars">
+            </div>
+            <div class ="col-md-5 col-sm-6">
+              <h2>Mars Facts</h2>
+              {{ space.mars_table|safe }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row" id="mars-hemispheres">
+      <div class="page-header">
+        <h2 class="text-center">Mars Hemispheres</h2>
+      </div>
+      {% for hemisphere in space.mars_hemispheres %}
+      <div class="col-md-6">
+        <div class="thumbnail">
+          <!--<img src="static/images/error.png">-->
+          <img src="{{hemisphere.img_url | default('static/images/error.png', true)}}" alt="...">
+          <div class="caption">
+            <h3>{{hemisphere.title}}</h3>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  </div>
+</body>
+</html>
+
