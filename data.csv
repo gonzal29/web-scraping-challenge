@@ -1,0 +1,51 @@
+_id,img_source,mars_hemispheres,mars_table,news_paragraph,news_title
+6091d58f93d82e22078d8dd0,https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/image/featured/mars1.jpg,"[{""img_url"":""https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/cerberus_enhanced.tif/full.jpg"",""title"":""Cerberus Hemisphere Enhanced""},{""img_url"":""https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/schiaparelli_enhanced.tif/full.jpg"",""title"":""Schiaparelli Hemisphere Enhanced""},{""img_url"":""https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/syrtis_major_enhanced.tif/full.jpg"",""title"":""Syrtis Major Hemisphere Enhanced""},{""img_url"":""https://astropedia.astrogeology.usgs.gov/download/Mars/Viking/valles_marineris_enhanced.tif/full.jpg"",""title"":""Valles Marineris Hemisphere Enhanced""}]","<table border=""1"" class=""dataframe table table-striped"">
+  <thead>
+    <tr style=""text-align: right;"">
+      <th></th>
+      <th>Mars</th>
+    </tr>
+    <tr>
+      <th>Description</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Equatorial Diameter:</th>
+      <td>6,792 km</td>
+    </tr>
+    <tr>
+      <th>Polar Diameter:</th>
+      <td>6,752 km</td>
+    </tr>
+    <tr>
+      <th>Mass:</th>
+      <td>6.39 × 10^23 kg (0.11 Earths)</td>
+    </tr>
+    <tr>
+      <th>Moons:</th>
+      <td>2 (Phobos &amp; Deimos)</td>
+    </tr>
+    <tr>
+      <th>Orbit Distance:</th>
+      <td>227,943,824 km (1.38 AU)</td>
+    </tr>
+    <tr>
+      <th>Orbit Period:</th>
+      <td>687 days (1.9 years)</td>
+    </tr>
+    <tr>
+      <th>Surface Temperature:</th>
+      <td>-87 to -5 °C</td>
+    </tr>
+    <tr>
+      <th>First Record:</th>
+      <td>2nd millennium BC</td>
+    </tr>
+    <tr>
+      <th>Recorded By:</th>
+      <td>Egyptian astronomers</td>
+    </tr>
+  </tbody>
+</table>",Managed by the Mars Exploration Program and the Jet Propulsion Laboratory for NASA’s Science Mission Directorate,News  – NASA’s Mars Exploration Program
